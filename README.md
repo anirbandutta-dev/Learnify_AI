@@ -1,111 +1,86 @@
-# Learnify AI
+# 🚀 Learnify AI – AI-Powered Learning Platform  
 
-A modern AI-powered learning platform built with Next.js 14, TypeScript, TailwindCSS, shadcn/ui, MongoDB, and Clerk authentication.
+An innovative **AI-powered learning platform** built with **Next.js** to make learning smarter, personalized, and engaging.  
 
-## Features
+This project was developed during a hackathon by **Team Byte Battlers**.  
 
-- 🚀 **Next.js 14** with App Router
-- 💎 **TypeScript** for type safety
-- 🎨 **TailwindCSS** for styling
-- 🧩 **shadcn/ui** for beautiful components
-- 🔐 **Clerk** for authentication
-- 🗄️ **MongoDB** with Mongoose for database
-- 📱 **Responsive design** with dark mode support
+🔗 **Live Demo:** [Learnify AI](https://learnify-ai-fumt.vercel.app/)  
 
-## Getting Started
+---
 
-### Prerequisites
+## 👥 Team Byte Battlers  
 
-- Node.js 18+ 
-- npm or yarn
-- MongoDB database (local or cloud)
-- Clerk account for authentication
+- **Anirban Dutta** – Team Leader  
+- **Iti Rani Jana** – Backend Developer  
+- **Shreyashree Khatua** – UI/UX Designer  
+- **Ayantik Ghosh** – Researcher  
 
-### Installation
+---
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd learnify-ai
-```
+## ✨ Features  
 
-2. Install dependencies:
-```bash
+- 📚 Personalized learning roadmaps powered by AI  
+- 🤖 Smart quiz generation with instant feedback  
+- 🎨 Modern and responsive UI/UX for better learning experience  
+- ⚡ Built with **Next.js** for performance and scalability  
+- 🔒 Secure authentication system (Clerk)  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend & Framework:** Next.js (React + TypeScript)  
+- **UI Design:** Tailwind CSS, Shadcn UI  
+- **Backend:** Node.js (API routes)  
+- **Authentication:** Clerk  
+- **AI Integration:** OpenAI API  
+- **Database:** MongoDB  
+
+---
+
+## 📂 Project Structure  
+
+
+---
+
+## ⚡ Getting Started  
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/<your-username>/lernify-ai.git
+   cd lernify-ai
+Install dependencies
+
 npm install
-```
 
-3. Set up environment variables:
-Create a `.env.local` file in the root directory and add:
 
-```env
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-CLERK_SECRET_KEY=your_clerk_secret_key_here
+Set up environment variables in .env.local
 
-# MongoDB Connection
-MONGODB_URI=your_mongodb_connection_string_here
-```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+OPENAI_API_KEY=your_key
+MONGODB_URI=your_connection_string
 
-4. Set up Clerk:
-   - Go to [Clerk Dashboard](https://dashboard.clerk.com/)
-   - Create a new application
-   - Copy your publishable key and secret key to the `.env.local` file
 
-5. Set up MongoDB:
-   - Create a MongoDB database (local or MongoDB Atlas)
-   - Copy your connection string to the `MONGODB_URI` in `.env.local`
+Run the development server
 
-6. Run the development server:
-```bash
 npm run dev
-```
 
-7. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure
+Open http://localhost:3000
 
-```
-learnify-ai/
-├── src/
-│   ├── app/                 # Next.js App Router pages
-│   │   ├── globals.css      # Global styles with TailwindCSS
-│   │   ├── layout.tsx       # Root layout with Clerk provider
-│   │   └── page.tsx         # Home page
-│   ├── lib/                 # Utility functions
-│   │   ├── mongodb.ts       # MongoDB connection utility
-│   │   └── utils.ts         # shadcn/ui utilities
-│   └── types/               # TypeScript type definitions
-│       └── global.d.ts      # Global type definitions
-├── components.json          # shadcn/ui configuration
-├── tailwind.config.ts       # TailwindCSS configuration
-└── package.json
-```
+🎯 Goal
 
-## Available Scripts
+Learnify AI was created to revolutionize education by combining AI-powered personalization with an intuitive and engaging platform, helping learners achieve more in less time.
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
 
-## Technologies Used
 
-- **Next.js 14** - React framework with App Router
-- **TypeScript** - Type-safe JavaScript
-- **TailwindCSS** - Utility-first CSS framework
-- **shadcn/ui** - Re-usable component library
-- **Clerk** - Authentication and user management
-- **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
+Add screenshots or demo gifs here if available.
 
-## Contributing
+🤝 Contribution
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+This project was developed for a hackathon. Suggestions and improvements are always welcome!
 
-## License
+🏆 Hackathon Submission
 
-This project is licensed under the MIT License.
+Built with ❤️ by Team Byte Battlers for [NEXATHON 1.0].
